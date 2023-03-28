@@ -38,4 +38,4 @@
 - The goal of scalability is to design a system that can handle growth and expansion without compromising on its core functionality or user experience.
 
 # Difference Between Vertical & Horizontal Scalability
-![](images/)
+![](images/Scalability_Difference.png)
