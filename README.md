@@ -39,3 +39,27 @@
 
 # Difference Between Both Vertical & Horizontal Scalability
 ![](images/Scalability_Difference1.png)
+
+# Load Balancing
+- Load balancing is a technique used in system design to distribute incoming network traffic or workload across multiple servers or resources to ensure optimal resource utilization, maximize throughput, minimize response time, and avoid overload or downtime.
+
+- `x` loads are equally distributed into `n` servers called Load Balancing Servers.
+
+**Example of Load Balancing :**
+
+![](images/Load_Balancing1.png)
+
+- Request Id  ---> 0 to M-1 we can send
+- S0, S1, S2, S3 ---> Servers
+- h()  ----> Hasing Function
+- r1   ----> Request Id
+- m1   ----> Output of the request Id after aplliying the hasing function
+- % 4  ----> Number Of Servers 
+- x/n -> 1/n -----> Load Factor
+
+## If Request adding more, means overloaded then we need to expand servers
+![](images/Load_Balancing2.png)
+
+- % 5 ----> one more server added i.e 'S4'
+
+
