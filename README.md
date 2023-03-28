@@ -37,5 +37,5 @@
 - These approaches involve distributing the workload across multiple servers, nodes, or clusters to improve performance, reduce latency, and increase availability. 
 - The goal of scalability is to design a system that can handle growth and expansion without compromising on its core functionality or user experience.
 
-# Difference Between Vertical & Horizontal Scalability
+# Difference Between Both Vertical & Horizontal Scalability
 ![](images/Scalability_Difference1.png)
